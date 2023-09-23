@@ -12,9 +12,9 @@ int main() {
   std::cout << "Adicione a nota do primeiro bimestre: ";
     if (!(std::cin >> PrimeiroBimestre)) {
         std::cout << "Por favor, insira apenas numeros." << std::endl;
-        std::cin.clear();            // Limpa o estado de erro
-        std::cin.ignore(10000, '\n'); // Limpa o buffer de entrada
-        return 1; // Sai do programa com código de erro
+        std::cin.clear();            
+        std::cin.ignore(10000, '\n'); 
+        return 1; 
     }
 
     std::cout << "agora a nota do segundo bimestre ";
